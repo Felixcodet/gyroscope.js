@@ -22,5 +22,3 @@ leftToRight (responsible for rotation around Y-Axis) and frontToBack (responsibl
   console.log(frontToBack);
 }
 ```
-
-The same steps also apply to the DeviceMotionEvent with updated names.
