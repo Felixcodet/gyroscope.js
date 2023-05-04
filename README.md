@@ -12,8 +12,7 @@ You have to develop and or host on HTTPS websites.
 ```
    <button id="startButton" style="height:50px;" onclick="requestDeviceOrientation()">
 ```
-3. In your main javascipt file you can get the values by working with the objects rotateDisplay (responsible for rotation around Z-Axis)
-leftToRight (responsible for rotation around Y-Axis) and frontToBack (responsible for rotation around X-Axis).
+3. In your main javascipt file you can get the values by working with the objects rotateDisplay (responsible for rotation around Z-Axis) leftToRight (responsible for rotation around Y-Axis) and frontToBack (responsible for rotation around X-Axis).
 
 ```
   function updateGyroscope() {
@@ -22,3 +21,5 @@ leftToRight (responsible for rotation around Y-Axis) and frontToBack (responsibl
   console.log(frontToBack);
 }
 ```
+
+You can get console data from ios by connecting your iphone to your mac by cable and go into safari on your mac into developer and then you can click on your phone. Chrome on ios supports a console on your phone nativly.
