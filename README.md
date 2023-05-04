@@ -9,9 +9,9 @@ You have to develop and or host on HTTPS websites.
 ## How to use
 1. Download the library and embed the file into html
 2. Create a button in html that starts the gyroscope function
-
-   "<button id="startButton" style="height:50px;" onclick="requestDeviceOrientation()">"
-
+'''
+   <button id="startButton" style="height:50px;" onclick="requestDeviceOrientation()">
+'''
 3. In your main javascipt file you can get the values by working with the objects rotateDisplay (responsible for rotation around Z-Axis)
 leftToRight (responsible for rotation around Y-Axis) and frontToBack (responsible for rotation around X-Axis).
 
