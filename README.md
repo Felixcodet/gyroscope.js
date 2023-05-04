@@ -15,10 +15,12 @@ You have to develop and or host on HTTPS websites.
 3. In your main javascipt file you can get the values by working with the objects rotateDisplay (responsible for rotation around Z-Axis)
 leftToRight (responsible for rotation around Y-Axis) and frontToBack (responsible for rotation around X-Axis).
 
+```
   function updateGyroscope() {
   console.log(rotateDisplay);
   console.log(leftToRight);
   console.log(frontToBack);
 }
+```
 
 The same steps also apply to the DeviceMotionEvent with updated names.
