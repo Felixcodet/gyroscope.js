@@ -17,7 +17,7 @@ You have to develop and or host on HTTPS websites.
 
 ```
   function update() {
-	console.log(gyroscope);
+   console.log(gyroscope);
    requestAnimationFrame(update)
 }
 update();
