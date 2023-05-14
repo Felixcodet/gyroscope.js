@@ -1,6 +1,6 @@
 # gyroscope.js
 Get DeviceOrientation data from any mobile device including ios13+ devices to use in javascript.
-To use as a library or as an example.
+Download the javascript file and use is like a library.
 
 ## Disclaimer
 The gyroscope does not work on HTTP sites due to security reasons.
