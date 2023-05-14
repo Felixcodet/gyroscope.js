@@ -8,17 +8,17 @@ You have to develop and or host on HTTPS websites.
 
 ## How to use
 1. Download the library and embed the file into HTML.
-2. After creating a button in HTML get the button in your main javascript file and trigger the function gyroscope.requestDeviceOrientation().
-```
-   let button = document.querySelector(".startButton");
-   button.onclick = function(){gyroscope.requestDeviceOrientation()};
-```
-3. Import the library. You can get the data by working with the objects 'rotateDisplay' (responsible for rotation around Z-Axis) 'leftToRight' (responsible for rotation around Y-Axis) and 'frontToBack' (responsible for rotation around X-Axis). If you want to get gyroscope data continuously you can do it like in the example.
-
+2. After importing the library you can create a button in HTML and trigger the function gyroscope.requestDeviceOrientation().
 ```
 import {gyroscope} from './gyroscope' //change path to location
 
-  function update() {
+let button = document.querySelector(".startButton");
+button.onclick = function(){gyroscope.requestDeviceOrientation()};
+```
+3. You can get the data by working with the objects 'rotateDisplay' (responsible for rotation around Z-Axis) 'leftToRight' (responsible for rotation around Y-Axis) and 'frontToBack' (responsible for rotation around X-Axis). If you want to get gyroscope data continuously you can do it like in the example.
+
+```
+function update() {
    console.log(gyroscope);
    requestAnimationFrame(update)
 }
