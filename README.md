@@ -13,9 +13,11 @@ You have to develop and or host on HTTPS websites.
    let button = document.querySelector(".startButton");
    button.onclick = function(){gyroscope.requestDeviceOrientation()};
 ```
-3. You can get the data by working with the objects 'rotateDisplay' (responsible for rotation around Z-Axis) 'leftToRight' (responsible for rotation around Y-Axis) and 'frontToBack' (responsible for rotation around X-Axis). If you want to get gyroscope data continuously you can do it like in the example.
+3. Import the library. You can get the data by working with the objects 'rotateDisplay' (responsible for rotation around Z-Axis) 'leftToRight' (responsible for rotation around Y-Axis) and 'frontToBack' (responsible for rotation around X-Axis). If you want to get gyroscope data continuously you can do it like in the example.
 
 ```
+import {gyroscope} from './gyroscope' //change path to location
+
   function update() {
    console.log(gyroscope);
    requestAnimationFrame(update)
